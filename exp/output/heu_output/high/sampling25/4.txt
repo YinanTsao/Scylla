@@ -1,0 +1,13 @@
+Total objective value for permutation ('matrixp', 'pytess', 'tnpy', 'trans'): 215.0
+Total objective value for permutation ('tnpy', 'trans', 'matrixp', 'pytess'): inf
+Total objective value for permutation ('pytess', 'tnpy', 'trans', 'matrixp'): 206.0
+Total objective value for permutation ('matrixp', 'trans', 'tnpy', 'pytess'): 204.0
+Total objective value for permutation ('pytess', 'tnpy', 'matrixp', 'trans'): 206.0
+Total objective value for permutation ('trans', 'pytess', 'tnpy', 'matrixp'): 208.0
+==== Feasible placement found with initial SLOs ====
+====================================================================================================
+Evaluated 6 permutations with initial SLOs in 3.39 seconds
+No degradation needed.
+Permutation ('matrixp', 'trans', 'tnpy', 'pytess') with minimum objective value: 204.0
+Total time cost: 3.39 seconds
+====================================================================================================

@@ -1,0 +1,26 @@
+Gopt:
+====================================================================================================
+Placement plan has been saved to placement_plan.json
+Objective value is: 1.0
+Elapsed time: 0.12 seconds
+
+
+====================================================================================================
+Placement plan has been saved to placement_plan.json
+Objective value is: 15.0
+Elapsed time: 0.41 seconds
+
+====================================================================================================
+Placement plan has been saved to placement_plan.json
+Objective value is: 19.0
+Elapsed time: 1.32 seconds
+
+
+
+
+Gopt: 500s
+
+
+
+10771836 895196  138.00000   67   43  142.00000  138.00000  2.82%   6.6  500s
+9134127 775636     cutoff   55       144.00000  139.74552  2.95%   7.0  500s

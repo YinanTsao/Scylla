@@ -1,0 +1,26 @@
+{
+  "sites": ["c1"],
+  "capacities": {
+      "c1": 1
+  },
+
+  "opti_pref": 2,
+
+  "applications": {
+
+      "tnpy": {
+        "slots": 1,
+        "users": ["u1"],
+        "request_rates": {
+                "u1": 0.060     
+        },
+        "latency_site_user": {
+          "('c1', 'u1')": 0
+        },
+        "slo": 300,
+        "slt": 400,
+        "service_rate": 0.060,
+        "priority_group": 1
+      }
+  }
+}

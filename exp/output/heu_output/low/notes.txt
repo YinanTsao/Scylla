@@ -1,0 +1,42 @@
+Hopt:
+
+====================================================================================================
+Best permutation with minimum objective value: ('tnpy',)
+Minimum objective value: 1.0
+Time taken: 0.11 seconds
+====================================================================================================
+Placement plan has been saved to placement_plan_r11.json
+
+
+====================================================================================================
+Best permutation with minimum objective value: ('tnpy', 'pytess')
+Minimum objective value: 15.0
+Time taken: 0.51 seconds
+====================================================================================================
+Placement plan has been saved to placement_plan_r12.json
+
+
+
+====================================================================================================
+Best permutation with minimum objective value: ('tnpy', 'pytess', 'matrixp')
+Minimum objective value: 19.0
+Time taken: 2.10 seconds
+====================================================================================================
+Placement plan has been saved to placement_plan_r13.json
+
+
+
+====================================================================================================
+Best permutation with minimum objective value: ('tnpy', 'pytess', 'matrixp', 'trans')
+Minimum objective value: 61.0
+Time taken: 31.04 seconds
+====================================================================================================
+Placement plan has been saved to placement_plan_r14.json
+
+
+====================================================================================================
+Best permutation with minimum objective value: ('tnpy', 'pytess', 'matrixp', 'trans', 'app1')
+Minimum objective value: 142.0
+Time taken: 351.39 seconds
+====================================================================================================
+Placement plan has been saved to placement_plan_r15.json

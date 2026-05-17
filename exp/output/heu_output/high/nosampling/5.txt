@@ -1,0 +1,65 @@
+Total objective value for permutation ('tnpy', 'pytess', 'matrixp', 'trans', 'app1'): 203.0
+Total objective value for permutation ('tnpy', 'pytess', 'trans', 'matrixp', 'app1'): 195.0
+Total objective value for permutation ('tnpy', 'pytess', 'trans', 'app1', 'matrixp'): 195.0
+Total objective value for permutation ('tnpy', 'pytess', 'app1', 'matrixp', 'trans'): 203.0
+Total objective value for permutation ('tnpy', 'pytess', 'app1', 'trans', 'matrixp'): 203.0
+Total objective value for permutation ('tnpy', 'matrixp', 'pytess', 'trans', 'app1'): 203.0
+Total objective value for permutation ('tnpy', 'trans', 'pytess', 'matrixp', 'app1'): 199.0
+Total objective value for permutation ('tnpy', 'trans', 'pytess', 'app1', 'matrixp'): 203.0
+Total objective value for permutation ('tnpy', 'trans', 'app1', 'pytess', 'matrixp'): 199.0
+Total objective value for permutation ('tnpy', 'trans', 'app1', 'matrixp', 'pytess'): 199.0
+Total objective value for permutation ('tnpy', 'app1', 'pytess', 'matrixp', 'trans'): 203.0
+Total objective value for permutation ('tnpy', 'app1', 'pytess', 'trans', 'matrixp'): 203.0
+Total objective value for permutation ('pytess', 'tnpy', 'trans', 'matrixp', 'app1'): 203.0
+Total objective value for permutation ('pytess', 'tnpy', 'trans', 'app1', 'matrixp'): 203.0
+Total objective value for permutation ('pytess', 'tnpy', 'app1', 'trans', 'matrixp'): 203.0
+Total objective value for permutation ('pytess', 'matrixp', 'tnpy', 'trans', 'app1'): 203.0
+Total objective value for permutation ('pytess', 'matrixp', 'tnpy', 'app1', 'trans'): 203.0
+Total objective value for permutation ('pytess', 'matrixp', 'app1', 'tnpy', 'trans'): 203.0
+Total objective value for permutation ('pytess', 'trans', 'tnpy', 'matrixp', 'app1'): 202.0
+Total objective value for permutation ('pytess', 'trans', 'tnpy', 'app1', 'matrixp'): 202.0
+Total objective value for permutation ('pytess', 'trans', 'matrixp', 'tnpy', 'app1'): 204.0
+Total objective value for permutation ('pytess', 'trans', 'app1', 'tnpy', 'matrixp'): 206.0
+Total objective value for permutation ('pytess', 'trans', 'app1', 'matrixp', 'tnpy'): 208.0
+Total objective value for permutation ('pytess', 'app1', 'tnpy', 'trans', 'matrixp'): 203.0
+Total objective value for permutation ('pytess', 'app1', 'matrixp', 'tnpy', 'trans'): 203.0
+Total objective value for permutation ('pytess', 'app1', 'trans', 'tnpy', 'matrixp'): 202.0
+Total objective value for permutation ('pytess', 'app1', 'trans', 'matrixp', 'tnpy'): 202.0
+Total objective value for permutation ('matrixp', 'tnpy', 'pytess', 'trans', 'app1'): 203.0
+Total objective value for permutation ('matrixp', 'pytess', 'tnpy', 'trans', 'app1'): 203.0
+Total objective value for permutation ('matrixp', 'pytess', 'trans', 'tnpy', 'app1'): 201.0
+Total objective value for permutation ('matrixp', 'pytess', 'trans', 'app1', 'tnpy'): 201.0
+Total objective value for permutation ('matrixp', 'trans', 'tnpy', 'pytess', 'app1'): 199.0
+Total objective value for permutation ('matrixp', 'trans', 'tnpy', 'app1', 'pytess'): 199.0
+Total objective value for permutation ('matrixp', 'trans', 'app1', 'tnpy', 'pytess'): 199.0
+Total objective value for permutation ('trans', 'tnpy', 'pytess', 'matrixp', 'app1'): 199.0
+Total objective value for permutation ('trans', 'tnpy', 'pytess', 'app1', 'matrixp'): 203.0
+Total objective value for permutation ('trans', 'tnpy', 'app1', 'pytess', 'matrixp'): 199.0
+Total objective value for permutation ('trans', 'tnpy', 'app1', 'matrixp', 'pytess'): 199.0
+Total objective value for permutation ('trans', 'pytess', 'tnpy', 'matrixp', 'app1'): 202.0
+Total objective value for permutation ('trans', 'pytess', 'tnpy', 'app1', 'matrixp'): 202.0
+Total objective value for permutation ('trans', 'pytess', 'app1', 'tnpy', 'matrixp'): 202.0
+Total objective value for permutation ('trans', 'matrixp', 'pytess', 'tnpy', 'app1'): 216.0
+Total objective value for permutation ('trans', 'app1', 'tnpy', 'pytess', 'matrixp'): 199.0
+Total objective value for permutation ('trans', 'app1', 'tnpy', 'matrixp', 'pytess'): 199.0
+Total objective value for permutation ('trans', 'app1', 'pytess', 'tnpy', 'matrixp'): 202.0
+Total objective value for permutation ('trans', 'app1', 'matrixp', 'tnpy', 'pytess'): 199.0
+Total objective value for permutation ('app1', 'tnpy', 'pytess', 'matrixp', 'trans'): 203.0
+Total objective value for permutation ('app1', 'tnpy', 'pytess', 'trans', 'matrixp'): 203.0
+Total objective value for permutation ('app1', 'tnpy', 'matrixp', 'pytess', 'trans'): 203.0
+Total objective value for permutation ('app1', 'tnpy', 'trans', 'pytess', 'matrixp'): 213.0
+Total objective value for permutation ('app1', 'pytess', 'tnpy', 'trans', 'matrixp'): 203.0
+Total objective value for permutation ('app1', 'pytess', 'matrixp', 'tnpy', 'trans'): 203.0
+Total objective value for permutation ('app1', 'pytess', 'trans', 'tnpy', 'matrixp'): 202.0
+Total objective value for permutation ('app1', 'pytess', 'trans', 'matrixp', 'tnpy'): 202.0
+Total objective value for permutation ('app1', 'matrixp', 'tnpy', 'pytess', 'trans'): 203.0
+Total objective value for permutation ('app1', 'matrixp', 'pytess', 'trans', 'tnpy'): 201.0
+==== Feasible placement found with initial SLOs ====
+====================================================================================================
+Evaluated 120 permutations with initial SLOs in 88.31 seconds
+No degradation needed.
+Permutation ('tnpy', 'pytess', 'trans', 'app1', 'matrixp') with minimum objective value: 195.0
+Total time cost: 88.31 seconds
+====================================================================================================
+
+216 - 195 = 21

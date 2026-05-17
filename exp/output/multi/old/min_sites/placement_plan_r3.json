@@ -1,0 +1,257 @@
+{
+    "sites": [
+        {
+            "site": "c1",
+            "applications": [
+                {
+                    "app": "tnpy",
+                    "instances": 6,
+                    "users": [
+                        {
+                            "user": "u1",
+                            "request_rate": 0.01
+                        },
+                        {
+                            "user": "u3",
+                            "request_rate": 0.01
+                        },
+                        {
+                            "user": "u4",
+                            "request_rate": 0.01
+                        },
+                        {
+                            "user": "u6",
+                            "request_rate": 0.01
+                        },
+                        {
+                            "user": "u8",
+                            "request_rate": 0.01
+                        }
+                    ]
+                },
+                {
+                    "app": "pytess",
+                    "instances": 22,
+                    "users": [
+                        {
+                            "user": "u12",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u13",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u14",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u16",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u17",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u19",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u20",
+                            "request_rate": 0.005
+                        }
+                    ]
+                },
+                {
+                    "app": "matrixp",
+                    "instances": 3,
+                    "users": [
+                        {
+                            "user": "u24",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u26",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u27",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u29",
+                            "request_rate": 0.005
+                        }
+                    ]
+                },
+                {
+                    "app": "trans",
+                    "instances": 2,
+                    "users": [
+                        {
+                            "user": "u31",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u34",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u36",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u37",
+                            "request_rate": 0.001
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "site": "e1",
+            "applications": []
+        },
+        {
+            "site": "e2",
+            "applications": [
+                {
+                    "app": "tnpy",
+                    "instances": 8,
+                    "users": [
+                        {
+                            "user": "u2",
+                            "request_rate": 0.01
+                        },
+                        {
+                            "user": "u5",
+                            "request_rate": 0.01
+                        }
+                    ]
+                },
+                {
+                    "app": "pytess",
+                    "instances": 8,
+                    "users": [
+                        {
+                            "user": "u11",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u15",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u18",
+                            "request_rate": 0.005
+                        }
+                    ]
+                },
+                {
+                    "app": "matrixp",
+                    "instances": 2,
+                    "users": [
+                        {
+                            "user": "u23",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u28",
+                            "request_rate": 0.005
+                        }
+                    ]
+                },
+                {
+                    "app": "trans",
+                    "instances": 1,
+                    "users": []
+                }
+            ]
+        },
+        {
+            "site": "e3",
+            "applications": []
+        },
+        {
+            "site": "e4",
+            "applications": [
+                {
+                    "app": "tnpy",
+                    "instances": 4,
+                    "users": [
+                        {
+                            "user": "u7",
+                            "request_rate": 0.01
+                        },
+                        {
+                            "user": "u9",
+                            "request_rate": 0.01
+                        },
+                        {
+                            "user": "u10",
+                            "request_rate": 0.01
+                        }
+                    ]
+                },
+                {
+                    "app": "pytess",
+                    "instances": 1,
+                    "users": []
+                },
+                {
+                    "app": "matrixp",
+                    "instances": 3,
+                    "users": [
+                        {
+                            "user": "u21",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u22",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u25",
+                            "request_rate": 0.005
+                        },
+                        {
+                            "user": "u30",
+                            "request_rate": 0.005
+                        }
+                    ]
+                },
+                {
+                    "app": "trans",
+                    "instances": 3,
+                    "users": [
+                        {
+                            "user": "u32",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u33",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u35",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u38",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u39",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u40",
+                            "request_rate": 0.001
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

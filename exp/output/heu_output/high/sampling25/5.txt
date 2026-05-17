@@ -1,0 +1,6 @@
+====================================================================================================
+Evaluated 60 permutations with initial SLOs in 43.76 seconds
+No degradation needed.
+Permutation ('tnpy', 'pytess', 'trans', 'app1', 'matrixp') with minimum objective value: 195.0
+Total time cost: 43.76 seconds
+====================================================================================================

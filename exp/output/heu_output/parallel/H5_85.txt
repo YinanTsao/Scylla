@@ -1,0 +1,108 @@
+==== Evaluating permutations with initial SLOs ====
+Permutations are: [('matrixp', 'trans', 'tnpy', 'pytess', 'app1'), ('matrixp', 'trans', 'tnpy', 'app1', 'pytess'), ('matrixp', 'trans', 'pytess', 'tnpy', 'app1'), ('matrixp', 'trans', 'pytess', 'app1', 'tnpy'), ('matrixp', 'trans', 'app1', 'tnpy', 'pytess'), ('matrixp', 'trans', 'app1', 'pytess', 'tnpy'), ('matrixp', 'app1', 'tnpy', 'pytess', 'trans'), ('matrixp', 'app1', 'tnpy', 'trans', 'pytess'), ('matrixp', 'app1', 'pytess', 'tnpy', 'trans'), ('matrixp', 'app1', 'pytess', 'trans', 'tnpy'), ('matrixp', 'app1', 'trans', 'tnpy', 'pytess'), ('matrixp', 'app1', 'trans', 'pytess', 'tnpy'), ('trans', 'tnpy', 'pytess', 'matrixp', 'app1'), ('trans', 'tnpy', 'pytess', 'app1', 'matrixp'), ('trans', 'tnpy', 'matrixp', 'pytess', 'app1')]
+Set parameter Username
+Set parameter LicenseID to value 2638400
+Academic license - for non-commercial use only - expires 2026-03-19
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('matrixp', 'trans', 'tnpy', 'pytess', 'app1'): 142.0
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('matrixp', 'trans', 'tnpy', 'app1', 'pytess'): 142.0
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('matrixp', 'trans', 'pytess', 'tnpy', 'app1'): 142.0
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('matrixp', 'trans', 'pytess', 'app1', 'tnpy'): 142.0
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('matrixp', 'trans', 'app1', 'tnpy', 'pytess'): 142.0
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('matrixp', 'trans', 'app1', 'pytess', 'tnpy'): 142.0
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('matrixp', 'app1', 'tnpy', 'pytess', 'trans'): 142.0
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('matrixp', 'app1', 'tnpy', 'trans', 'pytess'): 142.0
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('matrixp', 'app1', 'pytess', 'tnpy', 'trans'): 142.0
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('matrixp', 'app1', 'pytess', 'trans', 'tnpy'): 142.0
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('matrixp', 'app1', 'trans', 'tnpy', 'pytess'): 142.0
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('matrixp', 'app1', 'trans', 'pytess', 'tnpy'): 142.0
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('trans', 'tnpy', 'pytess', 'matrixp', 'app1'): 148.0
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('trans', 'tnpy', 'pytess', 'app1', 'matrixp'): 148.0
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Total objective value for permutation ('trans', 'tnpy', 'matrixp', 'pytess', 'app1'): 148.0
+==== Feasible placement found with initial SLOs ====
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+Set parameter Threads to value 4
+====================================================================================================
+Evaluated 15 permutations with initial SLOs in 134.33 seconds
+No degradation needed.
+Permutation ('matrixp', 'app1', 'trans', 'pytess', 'tnpy') with minimum objective value: 142.0
+Total time cost: 134.33 seconds
+====================================================================================================
+Placement plan has been saved to placement_plan_r1.json

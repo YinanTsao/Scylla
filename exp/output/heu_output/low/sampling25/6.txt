@@ -1,0 +1,7 @@
+====================================================================================================
+Evaluated 180 permutations with initial SLOs in 413.63 seconds
+No degradation needed.
+Permutation ('pytess', 'tnpy', 'app2', 'matrixp', 'trans', 'app1') with minimum objective value: 144.0
+Total time cost: 413.63 seconds
+====================================================================================================
+Placement plan has been saved to placement_plan_r1.json

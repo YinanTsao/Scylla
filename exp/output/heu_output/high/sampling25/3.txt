@@ -1,0 +1,28 @@
+====================================================================================================
+Evaluated 1 permutations with initial SLOs in 0.81 seconds
+No degradation needed.
+Permutation ('tnpy', 'matrixp', 'pytess') with minimum objective value: 178.0
+Total time cost: 0.81 seconds
+====================================================================================================
+
+====================================================================================================
+Evaluated 1 permutations with initial SLOs in 0.40 seconds
+No degradation needed.
+Permutation ('tnpy', 'pytess', 'matrixp') with minimum objective value: 162.0
+Total time cost: 0.40 seconds
+====================================================================================================
+
+
+====================================================================================================
+Evaluated 1 permutations with initial SLOs in 0.68 seconds
+No degradation needed.
+Permutation ('matrixp', 'tnpy', 'pytess') with minimum objective value: 188.0
+Total time cost: 0.68 seconds
+====================================================================================================
+
+====================================================================================================
+Evaluated 1 permutations with initial SLOs in 0.52 seconds
+No degradation needed.
+Permutation ('pytess', 'matrixp', 'tnpy') with minimum objective value: 168.0
+Total time cost: 0.52 seconds
+====================================================================================================

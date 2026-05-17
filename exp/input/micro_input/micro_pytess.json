@@ -1,0 +1,26 @@
+{
+  "sites": ["c1"],
+  "capacities": {
+      "c1": 1
+  },
+
+  "opti_pref": 2,
+
+  "applications": {
+
+      "pytess": {
+        "slots": 1,
+        "users": ["u1"],
+        "request_rates": {
+                "u1": 0.0085    
+        },
+        "latency_site_user": {
+          "('c1', 'u1')": 0
+        },
+        "slo": 1500,
+        "slt": 2000,
+        "service_rate": 0.011,
+        "priority_group": 1
+      }
+  }
+}

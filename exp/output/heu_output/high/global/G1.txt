@@ -1,0 +1,125 @@
+Set parameter Username
+Set parameter LicenseID to value 2638400
+Academic license - for non-commercial use only - expires 2026-03-19
+Set parameter TimeLimit to value 10000
+Set parameter MIPFocus to value 1
+Set parameter Cuts to value 3
+Set parameter Presolve to value 1
+Set parameter Heuristics to value 0.9
+Set parameter DisplayInterval to value 500
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (linux64 - "Ubuntu 22.04.5 LTS")
+
+CPU model: Intel Core Processor (Haswell, no TSX, IBRS), instruction set [SSE2|AVX|AVX2]
+Thread count: 32 physical cores, 32 logical processors, using up to 32 threads
+
+Non-default parameters:
+TimeLimit  10000
+Heuristics  0.9
+MIPFocus  1
+Cuts  3
+DisplayInterval  500
+Presolve  1
+
+Optimize a model with 130 rows, 175 columns and 330 nonzeros
+Model fingerprint: 0x3a48bb71
+Model has 55 quadratic constraints
+Variable types: 105 continuous, 70 integer (60 binary)
+Coefficient statistics:
+  Matrix range     [3e-03, 2e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [2e+00, 2e+00]
+  Bounds range     [1e+00, 1e+06]
+  RHS range        [1e+00, 7e+01]
+  QRHS range       [2e-04, 2e-03]
+Presolve removed 65 rows and 110 columns
+Presolve time: 0.00s
+Presolved: 235 rows, 216 columns, 675 nonzeros
+Presolved model has 100 SOS constraint(s)
+Presolved model has 5 bilinear constraint(s)
+Warning: Model contains variables with very large bounds participating
+         in product terms.
+         Presolve was not able to compute smaller bounds for these variables.
+         Consider bounding these variables or reformulating the model.
+
+
+Solving non-convex MIQCP
+
+Variable types: 106 continuous, 110 integer (105 binary)
+
+Root relaxation: objective 2.000000e+00, 108 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    2.00000    0   11          -    2.00000      -     -    0s
+     0     0    2.00000    0   11          -    2.00000      -     -    0s
+     0     0    2.00000    0   11          -    2.00000      -     -    0s
+H    0     0                     170.0000000    2.00000  98.8%     -    0s
+     0     2    2.00000    0   11  170.00000    2.00000  98.8%     -    0s
+H    1     4                     154.0000000    2.00000  98.7%   0.0    0s
+H    3     6                     152.0000000    2.00000  98.7%  24.0    0s
+H   44    16                     146.0000000   22.00000  84.9%  18.3    0s
+H   74    15                     144.0000000   36.00000  75.0%  14.2    0s
+H   84    15                     142.0000000   36.00000  74.6%  13.2    0s
+*  160     7              16     140.0000000   83.42455  40.4%   9.7    0s
+
+Cutting planes:
+  Implied bound: 7
+  Clique: 14
+  RLT: 3
+  Relax-and-lift: 3
+
+Explored 185 nodes (1786 simplex iterations) in 0.08 seconds (0.02 work units)
+Thread count was 32 (of 32 available processors)
+
+Solution count 7: 140 142 144 ... 170
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.400000000000e+02, best bound 1.400000000000e+02, gap 0.0000%
+====================================================================================================
+**** Optimization completed in 1 rounds ****
+----------------------------------------------------------------------------------------------------
+Site c1 is open for app: pytess with 7 instances, 1.0 users assigned.
+    Arrival rate at the instances for *pytess*: 0.00143, Utilization of instances: 0.14286
+*** SLO used for pytess: 250 ***
+  User u15 with average RTT 142.33333333333334 and 99.0% percentile RTT 240.72028007413655.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9915859156022847
+----------------------------------------------------------------------------------------------------
+Site e1 is open for app: pytess with 16 instances, 2.0 users assigned.
+    Arrival rate at the instances for *pytess*: 0.00175, Utilization of instances: 0.17500
+*** SLO used for pytess: 250 ***
+  User u13 with average RTT 126.60606060606061 and 99.0% percentile RTT 245.5028718913657.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9909312432174293
+  User u16 with average RTT 120.60606060606061 and 99.0% percentile RTT 239.5028718913656.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9921002359266005
+----------------------------------------------------------------------------------------------------
+Site e2 is open for app: pytess with 14 instances, 2.0 users assigned.
+    Arrival rate at the instances for *pytess*: 0.00171, Utilization of instances: 0.17143
+*** SLO used for pytess: 250 ***
+  User u11 with average RTT 122.34482758620689 and 99.0% percentile RTT 239.29419613631273.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9921068410537622
+  User u18 with average RTT 130.3448275862069 and 99.0% percentile RTT 247.29419613631308.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9905566279685988
+----------------------------------------------------------------------------------------------------
+Site e3 is open for app: pytess with 18 instances, 3.0 users assigned.
+    Arrival rate at the instances for *pytess*: 0.00172, Utilization of instances: 0.17222
+*** SLO used for pytess: 250 ***
+  User u14 with average RTT 129.40268456375838 and 99.0% percentile RTT 246.79063585144974.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.990660881382178
+  User u17 with average RTT 121.40268456375838 and 99.0% percentile RTT 238.79063585144937.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9922071657165058
+  User u19 with average RTT 126.40268456375838 and 99.0% percentile RTT 243.79063585144942.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9912577786538215
+----------------------------------------------------------------------------------------------------
+Site e4 is open for app: pytess with 15 instances, 2.0 users assigned.
+    Arrival rate at the instances for *pytess*: 0.00173, Utilization of instances: 0.17333
+*** SLO used for pytess: 250 ***
+  User u12 with average RTT 130.48387096774195 and 99.0% percentile RTT 248.48019214785774.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9903174754693664
+  User u20 with average RTT 120.48387096774194 and 99.0% percentile RTT 238.48019214785776.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9922750006114612
+====================================================================================================
+Placement plan has been saved to placement_plan.json
+Objective value is: 140.0
+Elapsed time: 0.12 seconds

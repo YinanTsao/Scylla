@@ -1,0 +1,165 @@
+nohup: ignoring input
+==== Evaluating permutations with initial SLOs ====
+Set parameter Username
+Set parameter LicenseID to value 2638400
+Academic license - for non-commercial use only - expires 2026-03-19
+==== Feasible placement found with initial SLOs ====
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Site e1 is closed.
+----------------------------------------------------------------------------------------------------
+Site e2 is closed.
+----------------------------------------------------------------------------------------------------
+Site e3 is closed.
+----------------------------------------------------------------------------------------------------
+Site e4 is open for app: trans with 5 instances, 8.0 users assigned.
+    Arrival rate at the instances for *trans*: 0.00160, Utilization of instances: 0.35556
+*** SLO used for trans: 800 ***
+  User u31 with average RTT 312.5249042145594 and 99.0% percentile RTT 747.1826957005098.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9934907427650204
+  User u32 with average RTT 343.5249042145594 and 99.0% percentile RTT 778.1826957005096.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9915977867946069
+  User u33 with average RTT 320.5249042145594 and 99.0% percentile RTT 755.1826957005101.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9930427324694241
+  User u34 with average RTT 292.5249042145594 and 99.0% percentile RTT 727.18269570051.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9944950646334845
+  User u35 with average RTT 300.5249042145594 and 99.0% percentile RTT 735.1826957005097.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9941126252389181
+  User u37 with average RTT 337.5249042145594 and 99.0% percentile RTT 772.1826957005104.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9919977980083674
+  User u38 with average RTT 363.5249042145594 and 99.0% percentile RTT 798.1826957005094.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.990141860997971
+  User u40 with average RTT 347.5249042145594 and 99.0% percentile RTT 782.18269570051.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9913218196838178
+----------------------------------------------------------------------------------------------------
+Site e5 is open for app: trans with 1 instances, 2.0 users assigned.
+    Arrival rate at the instances for *trans*: 0.00100, Utilization of instances: 0.22222
+*** SLO used for trans: 800 ***
+  User u36 with average RTT 290.96825396825415 and 99.0% percentile RTT 602.0210026544049.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9989722148831445
+  User u39 with average RTT 282.96825396825415 and 99.0% percentile RTT 594.0210026544047.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9990638428129036
+====================================================================================================
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Site e1 is closed.
+----------------------------------------------------------------------------------------------------
+Site e2 is open for app: matrixp with 1 instances, 1.0 users assigned.
+    Arrival rate at the instances for *matrixp*: 0.00700, Utilization of instances: 0.35000
+*** SLO used for matrixp: 200 ***
+  User u28 with average RTT 93.46153846153845 and 99.0% percentile RTT 189.82602391435776.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.993073062950642
+----------------------------------------------------------------------------------------------------
+Site e3 is closed.
+----------------------------------------------------------------------------------------------------
+Site e4 is open for app: matrixp with 9 instances, 5.0 users assigned.
+    Arrival rate at the instances for *matrixp*: 0.00533, Utilization of instances: 0.26667
+*** SLO used for matrixp: 200 ***
+  User u21 with average RTT 88.0909090909091 and 99.0% percentile RTT 165.9412689628124.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9978152396011104
+  User u22 with average RTT 119.0909090909091 and 99.0% percentile RTT 196.94126896281222.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9914747358730434
+  User u24 with average RTT 68.0909090909091 and 99.0% percentile RTT 145.9412689628122.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9991374342083098
+  User u25 with average RTT 76.0909090909091 and 99.0% percentile RTT 153.9412689628121.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9987539009556553
+  User u27 with average RTT 113.0909090909091 and 99.0% percentile RTT 190.9412689628121.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9937235118698254
+----------------------------------------------------------------------------------------------------
+Site e5 is open for app: matrixp with 5 instances, 4.0 users assigned.
+    Arrival rate at the instances for *matrixp*: 0.00700, Utilization of instances: 0.35000
+*** SLO used for matrixp: 200 ***
+  User u23 with average RTT 100.46153846153845 and 99.0% percentile RTT 196.82602391435776.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9910594956151799
+  User u26 with average RTT 100.46153846153845 and 99.0% percentile RTT 196.82602391435776.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9910594956151799
+  User u29 with average RTT 92.46153846153845 and 99.0% percentile RTT 188.82602391435773.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9933260693526385
+  User u30 with average RTT 77.46153846153845 and 99.0% percentile RTT 173.82602391435796.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9962073593640508
+====================================================================================================
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Site e1 is closed.
+----------------------------------------------------------------------------------------------------
+Site e2 is open for app: pytess with 6 instances, 2.0 users assigned.
+    Arrival rate at the instances for *pytess*: 0.00150, Utilization of instances: 0.15000
+*** SLO used for pytess: 250 ***
+  User u17 with average RTT 132.8235294117647 and 99.0% percentile RTT 236.43881360646745.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9923664180774638
+  User u18 with average RTT 138.8235294117647 and 99.0% percentile RTT 242.43881360646702.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9913581680377239
+----------------------------------------------------------------------------------------------------
+Site e3 is open for app: pytess with 3 instances, 1.0 users assigned.
+    Arrival rate at the instances for *pytess*: 0.00133, Utilization of instances: 0.13333
+*** SLO used for pytess: 250 ***
+  User u12 with average RTT 153.69230769230768 and 99.0% percentile RTT 245.78788084037882.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9909286995446929
+----------------------------------------------------------------------------------------------------
+Site e4 is open for app: pytess with 12 instances, 3.0 users assigned.
+    Arrival rate at the instances for *pytess*: 0.00150, Utilization of instances: 0.15000
+*** SLO used for pytess: 250 ***
+  User u11 with average RTT 137.82352941176472 and 99.0% percentile RTT 241.43881360646702.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9915305193716832
+  User u14 with average RTT 117.82352941176471 and 99.0% percentile RTT 221.4388136064675.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9946096415783521
+  User u15 with average RTT 125.82352941176471 and 99.0% percentile RTT 229.438813606467.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9934632572239043
+----------------------------------------------------------------------------------------------------
+Site e5 is open for app: pytess with 10 instances, 4.0 users assigned.
+    Arrival rate at the instances for *pytess*: 0.00150, Utilization of instances: 0.15000
+*** SLO used for pytess: 250 ***
+  User u13 with average RTT 145.8235294117647 and 99.0% percentile RTT 249.43881360646697.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9901041105724374
+  User u16 with average RTT 145.8235294117647 and 99.0% percentile RTT 249.43881360646697.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9901041105724374
+  User u19 with average RTT 137.8235294117647 and 99.0% percentile RTT 241.43881360646705.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9915305193716832
+  User u20 with average RTT 122.8235294117647 and 99.0% percentile RTT 226.43881360646728.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9939066871988609
+====================================================================================================
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Site e1 is closed.
+----------------------------------------------------------------------------------------------------
+Site e2 is open for app: tnpy with 5 instances, 3.0 users assigned.
+    Arrival rate at the instances for *tnpy*: 0.02600, Utilization of instances: 0.44828
+*** SLO used for tnpy: 100 ***
+  User u2 with average RTT 34.24568965517241 and 99.0% percentile RTT 76.84373251063691.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9985413456931623
+  User u7 with average RTT 48.24568965517241 and 99.0% percentile RTT 90.84373251063691.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9953196062190242
+  User u8 with average RTT 54.24568965517241 and 99.0% percentile RTT 96.84373251063684.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.992276635310488
+----------------------------------------------------------------------------------------------------
+Site e3 is closed.
+----------------------------------------------------------------------------------------------------
+Site e4 is open for app: tnpy with 7 instances, 4.0 users assigned.
+    Arrival rate at the instances for *tnpy*: 0.02357, Utilization of instances: 0.40640
+*** SLO used for tnpy: 100 ***
+  User u1 with average RTT 52.14351123193593 and 99.0% percentile RTT 90.44047531773055.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9958616367239433
+  User u3 with average RTT 60.14351123193593 and 99.0% percentile RTT 98.4404753177302.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9913756212923696
+  User u4 with average RTT 32.14351123193593 and 99.0% percentile RTT 70.4404753177305.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9993500122356205
+  User u5 with average RTT 40.14351123193593 and 99.0% percentile RTT 78.44047531773053.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9986389851659755
+----------------------------------------------------------------------------------------------------
+Site e5 is open for app: tnpy with 7 instances, 3.0 users assigned.
+    Arrival rate at the instances for *tnpy*: 0.02243, Utilization of instances: 0.38670
+*** SLO used for tnpy: 100 ***
+  User u6 with average RTT 59.676914554770846 and 99.0% percentile RTT 96.16574614894988.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.993177093501011
+  User u9 with average RTT 51.676914554770846 and 99.0% percentile RTT 88.1657461489499.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9968416752090494
+  User u10 with average RTT 36.676914554770846 and 99.0% percentile RTT 73.16574614894995.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9992642442412651
+====================================================================================================
+====================================================================================================
+Evaluated 24 permutations with initial SLOs in 16.98 seconds
+No degradation needed.
+Permutation ('trans', 'matrixp', 'pytess', 'tnpy') with minimum objective value: 362.0
+Total time cost: 16.98 seconds
+====================================================================================================
+Placement plan has been saved to placement_plan_r4.json

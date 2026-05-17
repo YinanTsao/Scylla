@@ -1,0 +1,6 @@
+====================================================================================================
+Evaluated 0 permutations with initial SLOs in 0.42 seconds
+No degradation needed.
+Permutation ('pytess', 'tnpy') with minimum objective value: 168.0
+Total time cost: 0.42 seconds
+====================================================================================================

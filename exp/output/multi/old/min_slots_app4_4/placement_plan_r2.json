@@ -1,0 +1,231 @@
+{
+    "sites": [
+        {
+            "site": "c1",
+            "applications": [
+                {
+                    "app": "tnpy",
+                    "instances": 1,
+                    "users": [
+                        {
+                            "user": "u1",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u2",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u3",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u4",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u5",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u6",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u7",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u8",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u9",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u10",
+                            "request_rate": 0.001
+                        }
+                    ]
+                },
+                {
+                    "app": "matrixp",
+                    "instances": 2,
+                    "users": [
+                        {
+                            "user": "u21",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u22",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u23",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u24",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u25",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u26",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u27",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u28",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u29",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u30",
+                            "request_rate": 0.001
+                        }
+                    ]
+                },
+                {
+                    "app": "trans",
+                    "instances": 4,
+                    "users": [
+                        {
+                            "user": "u31",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u32",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u33",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u34",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u35",
+                            "request_rate": 0.0
+                        },
+                        {
+                            "user": "u36",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u37",
+                            "request_rate": 0.0
+                        },
+                        {
+                            "user": "u38",
+                            "request_rate": 0.0
+                        },
+                        {
+                            "user": "u39",
+                            "request_rate": 0.0
+                        },
+                        {
+                            "user": "u40",
+                            "request_rate": 0.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "site": "e1",
+            "applications": [
+                {
+                    "app": "pytess",
+                    "instances": 3,
+                    "users": [
+                        {
+                            "user": "u13",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u14",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u16",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u18",
+                            "request_rate": 0.001
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "site": "e2",
+            "applications": [
+                {
+                    "app": "pytess",
+                    "instances": 1,
+                    "users": [
+                        {
+                            "user": "u11",
+                            "request_rate": 0.001
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "site": "e3",
+            "applications": [
+                {
+                    "app": "pytess",
+                    "instances": 2,
+                    "users": [
+                        {
+                            "user": "u17",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u19",
+                            "request_rate": 0.001
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "site": "e4",
+            "applications": [
+                {
+                    "app": "pytess",
+                    "instances": 2,
+                    "users": [
+                        {
+                            "user": "u12",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u15",
+                            "request_rate": 0.001
+                        },
+                        {
+                            "user": "u20",
+                            "request_rate": 0.001
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

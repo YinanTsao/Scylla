@@ -1,0 +1,53 @@
+Set parameter Username
+Set parameter LicenseID to value 2622949
+Academic license - for non-commercial use only - expires 2026-02-17
+Gurobi Optimizer version 12.0.1 build v12.0.1rc0 (linux64 - "Ubuntu 22.04.4 LTS")
+
+CPU model: Intel Core Processor (Haswell, no TSX, IBRS), instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 6 rows, 7 columns and 10 nonzeros
+Model fingerprint: 0x8aa96839
+Model has 2 quadratic constraints
+Variable types: 3 continuous, 4 integer (2 binary)
+Coefficient statistics:
+  Matrix range     [3e-03, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+06]
+  RHS range        [1e+00, 1e+02]
+  QRHS range       [3e-03, 3e-03]
+Presolve removed 6 rows and 5 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 3 columns, 8 nonzeros
+Presolved model has 1 bilinear constraint(s)
+
+Solving non-convex MIQCP
+
+Variable types: 2 continuous, 1 integer (0 binary)
+
+Root relaxation: objective 2.000000e+00, 0 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       2.0000000    2.00000  0.00%     -    0s
+
+Explored 1 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 16 (of 16 available processors)
+
+Solution count 1: 2 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.000000000000e+00, best bound 2.000000000000e+00, gap 0.0000%
+====================================================================================================
+**** Optimization completed in 1 rounds ****
+----------------------------------------------------------------------------------------------------
+Site c1 is open for app: pytess with 2 instances, 1.0 users assigned.
+    Arrival rate at the instances for *pytess*: 0.00150, Utilization of instances: 0.13636
+*** SLO used for pytess: 250 ***
+  User u1 with average RTT 98.08612440191389 and 99.0% percentile RTT 182.8136811764588.
+    Probability that the requests of this user will stay below the SLT-RTT: 0.9985629553432189
+====================================================================================================
+Placement plan has been saved to placement_plan.json

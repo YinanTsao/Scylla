@@ -1,0 +1,5 @@
+Gopt:
+====================================================================================================
+Placement plan has been saved to placement_plan.json
+Objective value is: 1.0
+Elapsed time: 0.12 seconds

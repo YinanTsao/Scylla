@@ -1,0 +1,19 @@
+{
+    "sites": [
+        {
+            "site": "c1",
+            "applications": [
+                {
+                    "app": "tnpy",
+                    "instances": 7,
+                    "users": [
+                        {
+                            "user": "u1",
+                            "request_rate": 0.24
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
